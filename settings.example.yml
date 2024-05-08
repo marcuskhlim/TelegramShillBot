@@ -1,9 +1,9 @@
 ---
 
-api_id: API_ID
-api_hash: API_HASH
-app_short_name: APP_SHORT_NAME
-phone_number: "PHONE_NUMBER"
+api_id: xxxxxxxx
+api_hash: xxxxxxx
+app_short_name: shillbot
+phone_number: "xxxxxxxx"
 # this has to be in quotes to ensure it is treated as a string
 # e.g. phone_number: "+18888675309"
 
@@ -15,20 +15,50 @@ splay: 7
 
 messages:
   one: |
-    this is message 1
-    it can be whatever you want it to be
+    🔥$APEL – Ape Lincoln Memeroyal 🔥🚀🚀
+    💥 An ape lincoln memorial meme on Solana 🔥
+    This Ape Will Make America Great Again 🇺🇸🦍
+    
+    📅 Launch : When we hit 300 members in TG group 💦
+
+    💪🏼 Strong marketing/branding team
+    😎 Doxxed Dev
+    🎬 Planet of the Apes is crushing it now
+
+    ✅ Fair launch, no bullshit, just fun 
+    ✅ Pump.fun launch
+    ✅ Community-First
+    ✅ Marketing + CEX Budget
+    ✅ More to come 👀
+
+    🗨 TG: https://t.me/ape_memeroyal
+    🌐 Web: https://www.apelincoln.meme
+    ✖: https://x.com/ape_memeroyal
+
+    🚨Don’t miss out on this! 🚨
   two: |
-    this is message 2
-    again, it can be whatever you want it to be
-    so you can have some variation
+    🔥$APEL – Ape Lincoln Memeroyal 🔥🚀🚀
+    💥 An ape lincoln memorial meme on Solana 🔥
+    This Ape Will Make America Great Again 🇺🇸🦍
+    
+    📅 Launch on pump.fun when we hit 300 members in TG 💦
+
+    💪🏼 Strong marketing/branding team
+    😎 Doxxed Dev
+    🎬 Planet of the Apes is crushing it now
+
+    Our meme coin features a hilarious fusion of Abraham Lincoln and an ape, embodying strength, freedom, and a sense of humor.
+    
+    Join our jungle community as we swing into the future of decentralized finance, and make America great again, one banana at a time!
+
+    🗨 TG: https://t.me/ape_memeroyal
+    🌐 Web: https://www.apelincoln.meme
+    ✖: https://x.com/ape_memeroyal
+
+    🚨Don’t miss out on this! 🚨
 
 raid:
-  CHANNEL_NAME:
-    message_type: one
-    # this is in seconds, so the below example is equal to 3 seconds
-    # we recommend at least 900 seconds, which is equal to 15 minutes
-    wait_interval: 3
-  SOME_OTHER_CHANNEL_NAME:
+  ape_memeroyal:
     # a channel can send multiple message types, so the below example will send messages `one` and `two`
     # the bot will send one message per wait interval in sequence
     message_type:
@@ -36,14 +66,93 @@ raid:
     - two
     # this is in seconds, so the below example is equal to 5 minutes
     # we recommend at least 900 seconds, which is equal to 15 minutes
-    wait_interval: 300
+    wait_interval: 900
     # this is in seconds, so the below example is equal to 1 minute
     increase_wait_interval: 60
     # a channel can limit the total number of messages sent, so the below example will send a maximum of 10 messages
-    total_messages: 10
+    total_messages: 100
     # this assumes the image's path is relative to the script `tg_shill_bot.py`
-    image: images/cd.jpg
-
+    image: images/ape.jpg
+  shillqueen:
+    message_type:
+    - two
+    - one
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
+  bscsimpers:
+    message_type:
+    - one
+    - two
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
+  poocoinshill:
+    message_type:
+    - one
+    - two
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
+  cryptofamilygroup:
+    message_type:
+    - two
+    - one
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
+  hiddengemsearly:
+    message_type:
+    - one
+    - two
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
+  nano_caps:
+    message_type:
+    - two
+    - one
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
+  ryoshiroom:
+    message_type:
+    - one
+    - two
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
+  uniswaptrollbox:
+    message_type:
+    - two
+    - one
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
+  welookformemes:
+    message_type:
+    - one
+    - two
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
+  robshillinggemofficial:
+    message_type:
+    - one
+    - two
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
 ########################################################
 ### !! DANGER ZONE !!
 ### >> only config below if you know what you are doing
@@ -59,31 +168,31 @@ random_message_format: |
 # this is a list of random "thank yous" that will be used to create a random message
 # that will be appended to your primary message to avoid TG banning -- SEE FAQs
 random_message:
-- Cheers
-- Thank you
-- Thank you so much
-- Thanks
-- Thanks a bunch
-- Thanks a million
-- Ta
-- Tak
-- Dank u
-- Kiitos
-- Merci
-- Merci beaucoup
-- Danke
-- Danke schön
-- Danke vielmals
-- Mahalo
-- Grazie
-- Arigato
-- Obrigado
-- Gracias
-- Xie xie
-- Shukran
-- Hvala
-- Efharisto
-- Dhanyavaad
-- Spasiba
-- Salamat
-- Khob khun
+    - Many banana bunches to you
+    - Ape-solutely grateful
+    - Swinging gratitude your way
+    - Big ape hugs for your kindness
+    - Banana-tastic thanks
+    - You're the top banana
+    - Gorilla-sized gratitude
+    - Ape-reciate it
+    - Monkeying around with thanks
+    - Sending a barrel of bananas your way
+    - Chimpanzee cheers
+    - Gibbon good vibes
+    - Gorilla gratitude galore
+    - Huge howls of thanks
+    - Ape-logetic for the lack of words - just thanks
+    - Monkey see, monkey thank
+    - A barrel of thanks
+    - Swinging in with appreciation
+    - Baboon blessings
+    - Thank you for going bananas with kindness
+    - Ape-solutely overwhelmed with gratitude
+    - You're the king of the jungle
+    - Thanks a bunch
+    - Grinning like a chimp thanks to you
+    - Howling with thanks
+    - You're bananas in the best possible way
+    - Ape-lauding your kindness
+    - Ape-titude of thanks
