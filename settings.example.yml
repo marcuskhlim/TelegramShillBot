@@ -31,7 +31,7 @@ messages:
     ✅ Marketing + CEX Budget
     ✅ More to come 👀
 
-    🗨 TG: https://t.me/ape_memeroyal
+    🗨 TG: https://t.me/+Tipo_hbXHxJiYTBh
     🌐 Web: https://www.apelincoln.meme
     ✖: https://x.com/ape_memeroyal
 
@@ -51,7 +51,7 @@ messages:
     
     Join our jungle community as we swing into the future of decentralized finance, and make America great again, one banana at a time!
 
-    🗨 TG: https://t.me/ape_memeroyal
+    🗨 TG: https://t.me/+Tipo_hbXHxJiYTBh
     🌐 Web: https://www.apelincoln.meme
     ✖: https://x.com/ape_memeroyal
 
@@ -146,6 +146,14 @@ raid:
     total_messages: 100
     image: images/ape.jpg
   robshillinggemofficial:
+    message_type:
+    - one
+    - two
+    wait_interval: 900
+    increase_wait_interval: 60
+    total_messages: 100
+    image: images/ape.jpg
+  launchonpump:
     message_type:
     - one
     - two
